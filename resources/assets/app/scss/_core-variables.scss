@@ -1,0 +1,135 @@
+// core overrides
+.top-themes {
+    li.nav-item {
+        color: #dba145;
+    }
+    a, .nav-link{
+        color: $text-classy-v20;
+    }
+    .nav-link.disabled{
+        color: $text-gray-100;
+    }
+    .tab-content{
+        background-color: $bg-black-100;
+        color: $text-white;
+        border-color: $text-black-100;
+    }
+    //nav tab
+    .nav-tabs, .nav-pills {
+        border-bottom-color: $text-black;
+        .nav-link{
+            min-width: 100px;
+            text-align: center;
+        }
+        .nav-link.active,
+        .navbar .active.dropdown-toggle,
+        .nav-tabs .active.dropdown-toggle {
+            color: $text-classy-v20;
+            background: $bg-black-100;
+            border-color: $text-black-100;
+            border-bottom-color: $bg-black-100;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus,
+        .navbar .dropdown-toggle:focus,
+        .navbar .nav-tabs .dropdown-toggle:focus {
+            border-color: $text-black-100;
+        }
+
+    }
+    //pagination
+    .page-link,
+    .pagination li a {
+        color: $text-classy-v20;
+        background-color: $bg-black-200;
+        border-color: $text-black;
+        min-width: 40px;
+        text-align: center;
+        :hover{
+            background-color: $bg-black-200;
+        }
+    }
+
+    .page-item.active .page-link,
+    .pagination li.active .page-link,
+    .page-item.active .pagination li a,
+    .pagination li .page-item.active a,
+    .pagination li.active a {
+        color: $text-black;
+        background-color: $bg-classy-v20;
+        border-color: $text-black;
+    }
+
+    .page-item.disabled .page-link,
+    .pagination li.disabled .page-link,
+    .page-item.disabled .pagination li a,
+    .pagination li .page-item.disabled a,
+    .pagination li.disabled a {
+        color: $text-black;
+        background-color: $bg-gray;
+        border-color: $text-black;
+    }
+    svg{
+        margin-right: 0.5rem;
+    }
+    .d-nav-brand {
+        width: 200px;
+        display: inline-block;
+    }
+
+    .d-bg-color {
+        width: 75%;
+        padding-top: 75%;
+        border-radius: 4px;
+    }
+
+    .card{
+        border-color: #282828;
+        background-color: #303030;
+        color: $text-white;
+        border-radius: 0.25rem;
+    }
+
+    .list-group-item{
+        background-color: $bg-black-100;
+        border-color: $text-black;
+    }
+
+    .card-header, .card-footer {
+        background-color: #212121;
+        border-color: #282828;
+        color: $text-white;
+    }
+
+    .text-muted{
+        color: #ccc !important;
+    }
+
+    .show > .btn-secondary.dropdown-toggle {
+        color: $text-white;
+        background-color: $bg-classy-v20;
+        border-color: $bg-classy-v20;
+    }
+
+    .dropdown-menu{
+        color: $text-white;
+        background-color: $bg-black-400;
+        border-color: $text-black;
+    }
+
+    .dropdown-header{
+        color: $text-classy-v20;
+    }
+
+    .dropdown-item{
+        color: $text-white;
+        border-color: $text-black;
+    }
+
+    .dropdown-item:hover, .dropdown-item:focus{
+        background-color: $bg-black-100;
+    }
+
+
+}

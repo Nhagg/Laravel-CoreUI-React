@@ -1,0 +1,176 @@
+//text-color
+$text-black:                      #000 !default;
+$text-classy-v20:                 #dba145 !default;
+$text-black-100:                  #333 !default;
+$text-black-300:                  #282828 !default;
+$text-white:                      #fff !default;
+$text-blue:                       #1F84CC !default;
+$text-gray-100:                   #999 !default;
+//bg-color
+$bg-classy-v20:                   #dba145 !default;
+$bg-black:                        #000 !default;
+$bg-white:                        #fff !default;
+$bg-black:                    #1a1a1a !default;
+$bg-black-100:                    #1a1a1a !default;
+$bg-black-200:                    #333 !default;
+$bg-black-300:                    #212121 !default;
+$bg-black-400:                    #303030 !default;
+$bg-gray-100:                     #f4f4f4 !default;
+$bg-gray-200:                     #f6f6f6 !default;
+$bg-gray-300:                     #f8f8f8 !default;
+$bg-yellow:                       #F4E348 !default;
+$bg-green:                        #58D72B !default;
+$bg-green-200:                    #8EC282 !default;
+$bg-red:                          #E14E4E !default;
+$bg-blue:                         #1A73E8 !default;
+$bg-blue-200:                     #509DF8 !default;
+$bg-violet:                       #B438F1 !default;
+$bg-lavender:                     #AA55A8 !default;
+$bg-gray:                         #DADADA !default;
+//border-color
+$bd-gray-300:                     #e5e5e5 !default;
+.bg- {
+  &classy-v20 {
+    background-color: $bg-classy-v20;
+  }
+  &black {
+    background-color: $bg-black;
+  }
+  &black-100 {
+    background-color: $bg-black-100;
+  }
+  &white {
+    background-color: $bg-white;
+  }
+  &yellow {
+    background-color: $bg-yellow;
+  }
+  &green {
+    background-color: $bg-green;
+  }
+  &green-200 {
+    background-color: $bg-green-200;
+  }
+  &red {
+    background-color: $bg-red;
+  }
+  &blue {
+    background-color: $bg-blue;
+  }
+  &blue-200 {
+    background-color: $bg-blue-200;
+  }
+  &violet {
+    background-color: $bg-violet;
+  }
+  &lavender {
+    background-color: $bg-lavender;
+  }
+  &gray {
+    background-color: $bg-gray;
+  }
+}
+.text- {
+  &classy {
+    color: $text-classy-v20;
+  }
+  &yellow {
+    color: $text-classy-v20;
+  }
+}
+.btn-topi-{
+  &classy {
+    background-color: $bg-classy-v20;
+    color: $text-white;
+    border-color: $bg-classy-v20;
+    &.active, &:hover, &:not(:disabled):not(.disabled):active{
+      background-color: #cfa264;
+      color: $text-white;
+      border-color: #cfa264;
+    }
+    &:active{
+      background-color: #c89c60;
+      color: $text-white;
+      border-color: #c89c60;
+    }
+    &.disabled{
+      background-color: #AE894C;
+      color: $text-white;
+      border-color: #c89c60;
+    }
+  }
+  &yellow {
+    background-color: $bg-yellow;
+    border-color: $bg-yellow;
+    color: $text-black;
+    &.active, &:hover{
+      background-color: #D6C946;
+    }
+    &:active{
+      background-color: #C3B745;
+    }
+    &.disabled{
+      background-color: #918B41;
+    }
+  }
+  &green {
+    background-color: $bg-green;
+    border-color: $bg-green;
+    color: $text-white;
+    &.active, &:hover{
+      background-color: #52BF2E;
+    }
+    &:active{
+      background-color: #4EAE2F;
+    }
+    &.disabled{
+      background-color: #438532;
+    }
+  }
+  &red {
+    background-color: $bg-red;
+    border-color: $bg-red;
+    color: $text-white;
+    &.active, &:hover{
+      background-color: #C64A4b;
+    }
+    &:active{
+      background-color: #B54749;
+    }
+    &.disabled{
+      background-color: #874144;
+    }
+  }
+  &blue {
+    background-color: $bg-blue;
+    border-color: $bg-blue;
+    color: $text-white;
+    &.active, &:hover{
+      background-color: #1D6ACE;
+    }
+    &:active{
+      background-color: #1F63BD;
+    }
+    &.disabled{
+      background-color: #245391;
+    }
+  }
+  &gray {
+    background-color: $bg-gray;
+    border-color: $bg-gray;
+    color: $text-black;
+    &.active, &:hover{
+      background-color: #C0C1C2;
+    }
+    &:active{
+      background-color: #AFB0B2;
+    }
+    &.disabled{
+      background-color: #84878A;
+    }
+  }
+}
+.classy {
+  background-color: $bg-classy-v20;
+  color: $text-classy-v20;
+}

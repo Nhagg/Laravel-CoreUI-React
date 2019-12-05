@@ -1,0 +1,25 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+//@import "variables";
+
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Fonts
+//@import "~font-awesome/scss/font-awesome"; // Font Awesome
+@import "~simple-line-icons/scss/simple-line-icons"; // Simple Line Icons
+@import '~flag-icon-css/css/flag-icon'; // Import Flag Icons Set
+
+
+// Import Main styles for this application
+@import './top-themes';
+
+// CoreUI Style
+@import "../scss/style";
+
+// Styles
+// Temp fix for reactstrap
+@import '../scss/core/_dropdown-menu-right';
